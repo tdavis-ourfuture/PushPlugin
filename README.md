@@ -82,7 +82,7 @@ This plugin is for use with [Cordova](http://incubator.apache.org/cordova/), and
 
 4) Modify your **res/xml/config.xml** to include the following line in order to tell Cordova to include this plugin and where it can be found: (See the Sample_config.xml file in the Example folder)
 
-	<plugin name="PushPlugin" value="com.plugin.gcm.PushPlugin" />
+	<gap:plugin name="com.adobe.plugins.PushPlugin" />
 
 5) Add the **PushNotification.js** script to your assets/www folder (or javascripts folder, wherever you want really) and reference it in your main index.html file. This file's usage is described in the **Plugin API** section below.
 
@@ -99,8 +99,7 @@ Copy the following files to your project's Plugins folder:
 	
 Add a reference for this plugin to the plugins section in **config.xml**:
 
-	<plugin name="PushPlugin" value="PushPlugin" />
-
+	<gap:plugin name="com.adobe.plugins.PushPlugin" />
 
 Add the **PushNotification.js** script to your assets/www folder (or javascripts folder, wherever you want really) and reference it in your main index.html file.
 
